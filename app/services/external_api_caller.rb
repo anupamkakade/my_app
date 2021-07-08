@@ -8,6 +8,6 @@ class ExternalApiCaller
         http.verify_mode = OpenSSL::SSL::VERIFY_NONE
         request = Net::HTTP::Get.new(url)
         response = http.request(request)        
-        return response.read_body
+        response.read_body
     end
 end
