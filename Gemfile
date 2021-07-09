@@ -47,3 +47,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "webmock", "~> 3.13"
+
+gem "concurrent-ruby", "~> 1.1"
